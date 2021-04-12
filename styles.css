@@ -1,0 +1,61 @@
+/* add your CSS here */
+.card {
+    width: 375px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 8px #888888;
+}   
+
+.card::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 397px;
+    height: 694px;
+    z-index: -1;
+    background-image: url(sahara\ desert.jpg);
+    background-size: cover;
+    filter: blur(5px);
+}
+
+h3 {
+    display:block;
+    margin: 10px auto 10px auto;
+    width: 330px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to bottom, #ed7c12, #f2d0ad);
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+li span {
+    font-weight: bold;
+}
+
+#interesting {
+    font-style: italic;
+}
+
+.desc {
+    display: block;
+    width: 330px;
+    margin: 10px auto 10px auto;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 2px 2px 4px black;
+    background-image: linear-gradient(to top, #ed7c12, #f2d0ad);
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
